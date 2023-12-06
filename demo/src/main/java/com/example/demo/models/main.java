@@ -4,12 +4,15 @@
  */
 package com.example.demo.models;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  *
  * @author NB-FLABARCA
  */
+@SpringBootApplication
 public class main {
     public static void main(String[] args) {
-        UsuarioModel um = new UsuarioModel();
+        
     }
 }
